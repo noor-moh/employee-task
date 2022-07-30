@@ -11,6 +11,7 @@ namespace EmployeeAPI.Controllers
     /// HumanResources Controller
     /// </summary>
     [Route("api/v1/hr")]
+    [Produces("application/json")]
     [ApiController]
     public class HumanResourcesController : ControllerBase
     {
