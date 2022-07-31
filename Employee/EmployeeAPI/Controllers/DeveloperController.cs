@@ -11,6 +11,7 @@ namespace EmployeeAPI.Controllers
     ///  Developers Controller
     /// </summary>
     [Route("api/v1/developer")]
+    [Produces("application/json")]
     [ApiController]
     public class DeveloperController : ControllerBase
     {

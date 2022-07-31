@@ -11,6 +11,7 @@ namespace EmployeeAPI.Controllers
     /// Sales Controller
     /// </summary>
     [Route("api/v1/sales")]
+    [Produces("application/json")]
     [ApiController]
     public class SalesController : ControllerBase
     {
